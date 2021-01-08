@@ -1,1 +1,1 @@
-ww.MinimalMathTool.html
+MinimalMathTool.html
