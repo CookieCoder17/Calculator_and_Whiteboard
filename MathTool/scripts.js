@@ -70,8 +70,6 @@ function boarderaser(){
 }
 canvas.addEventListener("mousedown", pendown);
 canvas.addEventListener("mouseup", penup);
-canvas.addEventListener("touchstart", pendown);
-canvas.addEventListener("touchend", penup);
 // For Download Image
 function downloadIMG() {
 	var imageName = prompt("Please input the Image Name");
