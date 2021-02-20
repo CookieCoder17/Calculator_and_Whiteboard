@@ -219,7 +219,7 @@ html{
 	position: relative;
 	background: linear-gradient(black,silver);
 	color: silver;
-	bottom: 40;
+	bottom: 40px;
 	opacity: 0.6;
 }
 #bBlack:hover{
@@ -229,7 +229,7 @@ html{
 #bErase{
 	position: relative;
 	top: 50px;
-	right: 180;
+	right: 180px;
 	background: linear-gradient(hotpink,lavenderblush);
 	color: lavenderblush;
 	border-radius: 8px;
