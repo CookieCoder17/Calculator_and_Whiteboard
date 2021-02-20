@@ -1,64 +1,77 @@
+<!DOCTYPE html>
 <html>
+
 <head>
 	<title>MathTool</title>
 	<link rel="stylesheet" href="style.css">
 </head>
-<body>	
+
+<body>
 	<div id="calcbutton">
-	<button type="button" onclick="clickHere1()" id="buttom1" title="Click Here">Calculator</button>
+		<button type="button" onclick="clickHere1()" id="buttom1" title="Click Here">Calculator</button>
 	</div>
 	<div id="gamebutton">
-	<button type="button" onclick="clickHere2()" id="buttom1" title="Click Here">WhiteBoard</button>
+		<button type="button" onclick="clickHere2()" id="buttom1" title="Click Here">WhiteBoard</button>
 	</div>
 	<hr id="firstline">
 	<div id="outerbox">
-	<input id="output1" readonly>
-	<div id="innerbox">
-	<div id="inputs">
-	<button type="button" id="button0" class="number" onclick="insert('0')">0</button>
-	<button type="button" id="button1" class="number" onclick="insert('1')">1</button>
-	<button type="button" id="button2" class="number" onclick="insert('2')">2</button>
-	<button type="button" id="button3" class="number" onclick="insert('3')">3</button>
-	<button type="button" id="button4" class="number" onclick="insert('4')">4</button>
-	<button type="button" id="button5" class="number" onclick="insert('5')">5</button>
-	<button type="button" id="button6" class="number" onclick="insert('6')">6</button>
-	<button type="button" id="button7" class="number" onclick="insert('7')">7</button>
-	<button type="button" id="button8" class="number" onclick="insert('8')">8</button>
-	<button type="button" id="clear" class="number" onclick="clean()">C</button>
-	<button type="button" id="button9" class="number" onclick="insert('9')">9</button>
-	<button type="button" id="decimal" class="number" onclick="insert('.')">.</button>
-	<div id="operators">
-	<button type="button" id="operate" onclick="insert('+')">+</button>
-	<button type="button" id="operate" onclick="insert('-')">-</button>	
-	<button type="button" id="operate" onclick="insert('*')">*</button>
-	<button type="button" id="operate" onclick="insert('/')">/</button>
-	</div>
-	</div>
-	<button type="button" id="calc" onclick="displayAns()">=</button>
-	</div>
+		<input id="output1" readonly>
+		<div id="innerbox">
+			<div id="inputs">
+				<button type="button" id="button0" class="number" onclick="insert('0')">0</button>
+				<button type="button" id="button1" class="number" onclick="insert('1')">1</button>
+				<button type="button" id="button2" class="number" onclick="insert('2')">2</button>
+				<button type="button" id="button3" class="number" onclick="insert('3')">3</button>
+				<button type="button" id="button4" class="number" onclick="insert('4')">4</button>
+				<button type="button" id="button5" class="number" onclick="insert('5')">5</button>
+				<button type="button" id="button6" class="number" onclick="insert('6')">6</button>
+				<button type="button" id="button7" class="number" onclick="insert('7')">7</button>
+				<button type="button" id="button8" class="number" onclick="insert('8')">8</button>
+				<button type="button" id="clear" class="number" onclick="clean()">C</button>
+				<button type="button" id="button9" class="number" onclick="insert('9')">9</button>
+				<button type="button" id="decimal" class="number" onclick="insert('.')">.</button>
+				<div id="operators">
+					<button type="button" id="operate" onclick="insert('+')">+</button>
+					<button type="button" id="operate" onclick="insert('-')">-</button>
+					<button type="button" id="operate" onclick="insert('*')">*</button>
+					<button type="button" id="operate" onclick="insert('/')">/</button>
+				</div>
+			</div>
+			<button type="button" id="calc" onclick="displayAns()">=</button>
+		</div>
 	</div>
 	<div id="Wboard">
-	<input id="historybox" readonly>
-	<div id="markerPack">
-	<button type="button" id="bRed" class ="marker" onclick="redmarker()"><p id="marker">Red</p></button>
-	<button type="button" id="bBlue" class ="marker" onclick="bluemarker()"><p id="marker">Blue</p></button>
-	<button type="button" id="bGreen" class ="marker" onclick="greenmarker()"><p id="marker">Green</p></button>
-	<button type="button" id="bBlack" class ="marker" onclick="blackmarker()"><p id="marker">Black</p></button>
-	<button type="button" id="bErase" class ="marker" onclick="whitemarker()"><p id="marker">Eraser</p></button>	
+		<input id="historybox" readonly>
+		<div id="markerPack">
+			<button type="button" id="bRed" class="marker" onclick="redmarker()">
+				<p id="marker">Red</p>
+			</button>
+			<button type="button" id="bBlue" class="marker" onclick="bluemarker()">
+				<p id="marker">Blue</p>
+			</button>
+			<button type="button" id="bGreen" class="marker" onclick="greenmarker()">
+				<p id="marker">Green</p>
+			</button>
+			<button type="button" id="bBlack" class="marker" onclick="blackmarker()">
+				<p id="marker">Black</p>
+			</button>
+			<button type="button" id="bErase" class="marker" onclick="whitemarker()">
+				<p id="marker">Eraser</p>
+			</button>
+		</div>
+		<div id="board-options">
+			<button type="button" id="clearboard" onclick="boarderaser()">Clear</button>
+			<button type="button" id="save" onclick="downloadIMG()">Save</button>
+		</div>
 	</div>
-	<div id="board-options">
-		<button type="button" id="clearboard" onclick="boarderaser()">Clear</button>
-		<button type="button" id="save" onclick="downloadIMG()">Save</button>
 	</div>
-	</div>
-	</div>
-	<canvas id="Whiteboard" onmousemove="drawingoverboard(event)">	
+	<canvas id="Whiteboard" onmousemove="drawingoverboard(event)">
 	</canvas>
 	<script src="scripts.js" defer></script>
-	
+
 </body>
 <footer id="copyright">
-&copy;Copyright 2020 by Khoukhi. All Rights Reserved
+	&copy;Copyright 2020 by Khoukhi. All Rights Reserved
 </footer>
 
 </html>
