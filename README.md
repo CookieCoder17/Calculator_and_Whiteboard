@@ -1,6 +1,6 @@
 <h2>Calculator_and_Whiteboard</h2>
 
-A minimal web application that consists of a basic calculator and a drawing whiteboard. Nothing out of the ordinary, just my first project using HTML, CSS, and JavaScript.  
+A minimal web application that consists of a basic calculator and a drawing whiteboard. Nothing big, just my first project using HTML, CSS, and JavaScript.  
 
 <h3>MathTool website link:</h3> 
 <p>
