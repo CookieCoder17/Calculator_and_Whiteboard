@@ -7,4 +7,7 @@ A minimal web application that consists of a basic calculator and a drawing whit
 https://htmlpreview.github.io/?https://github.com/CookieCoder17/Mini-Web-Collection/blob/main/MathTool/MinimalMathTool.html
 </p>
 
+### Calculator:
+<img src="MathTool_README/Calculator.png>
+
 
