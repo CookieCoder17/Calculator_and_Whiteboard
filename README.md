@@ -8,6 +8,7 @@ https://htmlpreview.github.io/?https://github.com/CookieCoder17/Mini-Web-Collect
 </p>
 
 ### Calculator:
-<img src="MathTool_README/Calculator.png>
+<img src="MathTool_README/Calculator.png" width=750>
 
-
+### Whiteboard:
+<img src="MathTool_README/Whiteboard.png" width=800>
