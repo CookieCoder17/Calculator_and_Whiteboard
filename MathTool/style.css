@@ -1,273 +1,313 @@
-html{
-	background: radial-gradient(lightgrey, silver, grey);
-	position: fixed;
-        top: 0px;
-        bottom: 0px;
-        left: 0px;
-        right: 0px;
+html {
+    background: radial-gradient(lightgrey, silver, grey);
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
 }
-#buttom1{
-	background-color: black;
-	color: white;
-	height: 25px;
-	width: 150px;
+
+#buttom1 {
+    background-color: black;
+    color: white;
+    height: 25px;
+    width: 150px;
 }
-#calcbutton{
-	position: relative;
-	top: 30px;
-	left: 400px;
+
+#calcbutton {
+    position: relative;
+    top: 30px;
+    left: 400px;
 }
-#gamebutton{
-	position: relative;
-	top: 5px;
-	left: 710px;
+
+#gamebutton {
+    position: relative;
+    top: 5px;
+    left: 710px;
 }
+
 #buttom1:hover {
-	background-color: silver;
-	cursor: pointer;
+    background-color: silver;
+    cursor: pointer;
 }
-#outerbox{
-	display: none;
-	width: 300px;
-	height: 400px;
-	background: linear-gradient(grey,powderblue);
-	border: 4px inset powderblue;
-	padding: 8px;
-	margin: auto;
-	border-radius: 15px;
+
+#outerbox {
+    display: none;
+    width: 300px;
+    height: 400px;
+    background: linear-gradient(grey, powderblue);
+    border: 4px inset powderblue;
+    padding: 8px;
+    margin: auto;
+    border-radius: 15px;
 }
-#output1{
-	border-radius: 15px;
-	width: 300px;
-	height: 75px;
-	font-size: 50px;
-	font-weight: bold;
-	text-align: right;
-	outline: none;
+
+#output1 {
+    border-radius: 15px;
+    width: 300px;
+    height: 75px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: right;
+    outline: none;
 }
+
 #output1:hover {
-	opacity: 0.8;
-	cursor: not-allowed;
+    opacity: 0.8;
+    cursor: not-allowed;
 }
-#operators{
-	width: 100px;
-	position: relative;
-	left: 220px;
-	bottom: 210px;
+
+#operators {
+    width: 100px;
+    position: relative;
+    left: 220px;
+    bottom: 210px;
 }
-#operate{
-	outline: none;
-	border-radius: 15px;
-	border: 5px groove pink;
-	width: 80px;
-	height: 35x;
-	font-size: 35px;
-	font-weight: bold;
-	text-align: center;
-	background-color: silver;
-	color: black;
+
+#operate {
+    outline: none;
+    border-radius: 15px;
+    border: 5px groove pink;
+    width: 80px;
+    height: 35x;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    background-color: silver;
+    color: black;
 }
+
 #operate:hover {
-	background-color: pink;
-	cursor: pointer;
+    background-color: pink;
+    cursor: pointer;
 }
-#inputs{
-	position: relative;
-	top: 20px;
-	width: 250px;
+
+#inputs {
+    position: relative;
+    top: 20px;
+    width: 250px;
 }
-#calc{
-	border: 5px groove powderblue;
-	border-radius: 13px;
-	position: relative;
-	bottom: 170px;
-	left: 40px;
-	display: inline-block;
-    	line-height: 40px;
-	text-align: center;
-	width: 210px;
-	height: 50px;
-	font-size: 75px;
-	font-weight: bold;
-	font-family: times;
-	background-color: silver;
-	color: black;	
-	outline: none;
+
+#calc {
+    border: 5px groove powderblue;
+    border-radius: 13px;
+    position: relative;
+    bottom: 170px;
+    left: 40px;
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    width: 210px;
+    height: 50px;
+    font-size: 75px;
+    font-weight: bold;
+    font-family: times;
+    background-color: silver;
+    color: black;
+    outline: none;
 }
-#calc:hover{
-	background-color: powderblue;
-	cursor: pointer;
+
+#calc:hover {
+    background-color: powderblue;
+    cursor: pointer;
 }
-.number{
-	outline: none;
-	border-radius: 30px;
-	border: 5px groove powderblue;
-	width: 65px;
-	height: 35x;
-	font-size: 35px;
-	font-weight: bold;
-	text-align: center;
-	background-color: silver;
-	color: black;	
+
+.number {
+    outline: none;
+    border-radius: 30px;
+    border: 5px groove powderblue;
+    width: 65px;
+    height: 35x;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    background-color: silver;
+    color: black;
 }
-.number:hover{
-	background-color: powderblue;
-	cursor: pointer;
+
+.number:hover {
+    background-color: powderblue;
+    cursor: pointer;
 }
-#firstline{
-	border: 0px solid black;
+
+#firstline {
+    border: 0px solid black;
 }
-#copyright{
-	position: absolute;
-	top: 570px;
-	font-size: 15px;
-	font-weight: bold;
+
+#copyright {
+    position: absolute;
+    top: 570px;
+    font-size: 15px;
+    font-weight: bold;
 }
-#Wboard{
-	background-color: darkgreen;
-	width: 190px;
-	height: 400px;
-	border: 4px outset maroon;
-	border-radius: 15px;
-	position: relative;
-	top: 40px;
-	left: 10px;
-	font-size: 30px;
-	font-weight: bold;
-	outline: none;
+
+#Wboard {
+    background-color: darkgreen;
+    width: 190px;
+    height: 400px;
+    border: 4px outset maroon;
+    border-radius: 15px;
+    position: relative;
+    top: 40px;
+    left: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    outline: none;
 }
-#historybox{
-	background-color: white;
-	width: 170px;
-	height: 50px;
-	border: 4px outset maroon;
-	border-radius: 15px;
-	position: relative;
-	left: 11px;
-	top: 12px;
-	font-size: 30px;
-	font-weight: bold;
-	outline: none;
+
+#historybox {
+    background-color: white;
+    width: 170px;
+    height: 50px;
+    border: 4px outset maroon;
+    border-radius: 15px;
+    position: relative;
+    left: 11px;
+    top: 12px;
+    font-size: 30px;
+    font-weight: bold;
+    outline: none;
 }
+
 #historybox:hover {
-	cursor: not-allowed;
-	opacity: 0.8;
+    cursor: not-allowed;
+    opacity: 0.8;
 }
-#Whiteboard{
-	border: 6px groove silver;
-	background-color: white;
-	position: relative;
-	bottom: 400px;
-	left: 230px;
+
+#Whiteboard {
+    border: 6px groove silver;
+    background-color: white;
+    position: relative;
+    bottom: 400px;
+    left: 230px;
 }
-#Whiteboard:hover{
-	cursor: crosshair;
-	opacity: 0.9999;
+
+#Whiteboard:hover {
+    cursor: crosshair;
+    opacity: 0.9999;
 }
-#markerPack{
-	width: 250px;
-	height: 100px;	
-	position: relative;
-	top: 22px;
-	left: 7px;
+
+#markerPack {
+    width: 250px;
+    height: 100px;
+    position: relative;
+    top: 22px;
+    left: 7px;
 }
-.marker{
-	width: 170px;
-	height: 40px;
-	margin: 3px;
-	border-radius: 40px;	
-	border: 1px solid darkgreen;
-	outline: none;
-	font-family: Georgia, serif;
-	font-size: 10px;
-	font-weight: bold;
+
+.marker {
+    width: 170px;
+    height: 40px;
+    margin: 3px;
+    border-radius: 40px;
+    border: 1px solid darkgreen;
+    outline: none;
+    font-family: Georgia, serif;
+    font-size: 10px;
+    font-weight: bold;
 }
-#marker{
-	position: relative;
-	right: 0px;
+
+#marker {
+    position: relative;
+    right: 0px;
 }
-#bRed{
-	position: relative;
-	background: linear-gradient(red,pink);
-	color: pink;
-	opacity: 0.6;
+
+#bRed {
+    position: relative;
+    background: linear-gradient(red, pink);
+    color: pink;
+    opacity: 0.6;
 }
-#bRed:hover{
-	opacity: 1;
-	cursor: pointer;
+
+#bRed:hover {
+    opacity: 1;
+    cursor: pointer;
 }
-#bBlue{
-	position: relative;
-	background: linear-gradient(navy,powderblue);
-	color: powderblue;	
-	opacity: 0.6;
+
+#bBlue {
+    position: relative;
+    background: linear-gradient(navy, powderblue);
+    color: powderblue;
+    opacity: 0.6;
 }
-#bBlue:hover{
-	opacity: 1;
-	cursor: pointer;
+
+#bBlue:hover {
+    opacity: 1;
+    cursor: pointer;
 }
-#bGreen{
-	background: linear-gradient(green,lightgreen);
-	color: lightgreen;
-	opacity: 0.6;
+
+#bGreen {
+    background: linear-gradient(green, lightgreen);
+    color: lightgreen;
+    opacity: 0.6;
 }
-#bGreen:hover{
-	opacity: 1;
-	cursor: pointer;
+
+#bGreen:hover {
+    opacity: 1;
+    cursor: pointer;
 }
-#bBlack{
-	position: relative;
-	background: linear-gradient(black,silver);
-	color: silver;
-	bottom: 40px;
-	opacity: 0.6;
+
+#bBlack {
+    position: relative;
+    background: linear-gradient(black, silver);
+    color: silver;
+    bottom: 40px;
+    opacity: 0.6;
 }
-#bBlack:hover{
-	opacity: 1;
-	cursor: pointer;
+
+#bBlack:hover {
+    opacity: 1;
+    cursor: pointer;
 }
-#bErase{
-	position: relative;
-	top: 50px;
-	right: 180px;
-	background: linear-gradient(hotpink,lavenderblush);
-	color: lavenderblush;
-	border-radius: 8px;
-	height: 120px;
-	width: 60px;
-	opacity: 0.6;
+
+#bErase {
+    position: relative;
+    top: 50px;
+    right: 180px;
+    background: linear-gradient(hotpink, lavenderblush);
+    color: lavenderblush;
+    border-radius: 8px;
+    height: 120px;
+    width: 60px;
+    opacity: 0.6;
 }
-#bErase:hover{
-	opacity: 1;
-	cursor: pointer;
+
+#bErase:hover {
+    opacity: 1;
+    cursor: pointer;
 }
-#board-options{
-	width: 50px;
-	height: 45px;
-	border: 0px solid darkgreen;
-	position: relative;
-	left: 70px;
-	top: 110px;
+
+#board-options {
+    width: 50px;
+    height: 45px;
+    border: 0px solid darkgreen;
+    position: relative;
+    left: 70px;
+    top: 110px;
 }
-#clearboard{
-	width: 90px;
-	height: 35px;
-	margin: 15px;	
-	border-radius: 20px;
-	outline: none;
+
+#clearboard {
+    width: 90px;
+    height: 35px;
+    margin: 15px;
+    border-radius: 20px;
+    outline: none;
 }
+
 #clearboard:hover {
-	opacity: 0.8;
-	cursor: pointer;
+    opacity: 0.8;
+    cursor: pointer;
 }
-#save{
-	width: 90px;
-	height: 35px;
-	margin: 15px;
-	border-radius: 20px;
-	outline: none;
+
+#save {
+    width: 90px;
+    height: 35px;
+    margin: 15px;
+    border-radius: 20px;
+    outline: none;
 }
+
 #save:hover {
-	opacity: 0.8;	
-	cursor: pointer;
+    opacity: 0.8;
+    cursor: pointer;
 }
